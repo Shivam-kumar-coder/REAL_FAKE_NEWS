@@ -13,7 +13,7 @@ from tensorflow.keras.layers import Dense, LSTM, Embedding
 #st.title('News Detect 🔎')
 #text=st.text_input("ENter your NEWS")
 #but=st.button('Search')
-df=pd.read_csv("D:/data/Fake_Real_Data.csv")
+df=pd.read_csv("Fake_Real_Data.csv")
 df.drop_duplicates(inplace=True)
 
 #v=TfidfVectorizer(stop_words='english',max_features=5000)
